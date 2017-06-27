@@ -1,6 +1,6 @@
 FROM registry:2
 
-COPY exampleup-registry-entrypoint.sh \
-     exampleup-registry-config.yml /
+COPY minienv-registry-entrypoint.sh \
+     minienv-registry-config.yml /
 
-ENTRYPOINT ["/exampleup-registry-entrypoint.sh"]
+ENTRYPOINT ["/minienv-registry-entrypoint.sh"]
